@@ -59,6 +59,19 @@ body {
   display: none;
 }
 
+@media (max-width: 600px) {
+  .nav-bar {
+    width: 100%;
+    height: 70px;
+  }
+  .nav-bar .logo {
+    height: 70px;
+    width: 70px;
+  }
+  .nav-bar .list li a {
+    font-size: 15px;
+  }
+}
 .home {
   background-color: #F6F3EE;
   height: 100vh;
@@ -99,6 +112,29 @@ body {
   bottom: 7%;
 }
 
+@media (max-width: 600px) {
+  .home .tracos {
+    width: 150px;
+    height: 150px;
+  }
+  .home .left img {
+    width: 200px;
+    height: 250px;
+  }
+  .home .right .content .escada {
+    width: 170px;
+    height: 180px;
+    left: 63%;
+  }
+  .home .right .content .retangulo {
+    width: 200px;
+    height: 450px;
+  }
+  .home .right .content h1 {
+    top: 21%;
+    left: 63.5%;
+  }
+}
 .sobre {
   height: 100vh;
   width: 100vw;
@@ -115,4 +151,20 @@ body {
 }
 .sobre img {
   padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 35px;
+  }
+  .sobre h3 {
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace;
+  }
+  .sobre img {
+    width: 225px;
+    height: 170px;
+  }
 }/*# sourceMappingURL=style.css.map */
