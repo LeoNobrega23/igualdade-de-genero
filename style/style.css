@@ -124,14 +124,16 @@ body {
     width: 170px;
     height: 180px;
     left: 63%;
+    top: 58%;
   }
   .home .right .content .retangulo {
     width: 200px;
     height: 450px;
   }
   .home .right .content h1 {
-    top: 21%;
-    left: 63.5%;
+    top: 28%;
+    left: 61.5%;
+    font-size: 21px;
   }
   .nav-bar {
     width: 100%;
@@ -242,7 +244,7 @@ body {
 .politicas .swiper {
   border: 1px solid rgb(0, 0, 0);
   width: 50vw;
-  height: 50vh;
+  height: 55vh;
   background-color: #2b2a2a;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -250,7 +252,7 @@ body {
 .politicas .swiper .swiper-wrapper {
   width: 25vw;
   height: 50vh;
-  background-color: #2b2a2a;
+  background-color: #2c2b2b;
 }
 .politicas .swiper .swiper-wrapper .swiper-slide {
   padding-top: 35px;
@@ -274,4 +276,33 @@ body {
 }
 .politicas .swiper .swiper-button-next {
   color: #F6F3EE;
+}
+
+@media (max-width: 600px) {
+  .politicas .swiper {
+    width: 90vw;
+  }
+  .politicas .swiper .swiper-wrapper {
+    width: 50vw;
+  }
+  .politicas .swiper .swiper-wrapper .swiper-slide h4 {
+    font-size: 25px;
+  }
+  .politicas .swiper .swiper-wrapper .swiper-slide p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .politicas {
+    padding-bottom: 200px;
+  }
+  .politicas .swiper {
+    height: 35vh;
+  }
+  .politicas .swiper .swiper-wrapper .swiper-slide h4 {
+    font-size: 18px;
+  }
+  .politicas .swiper .swiper-wrapper .swiper-slide P {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style.css.map */

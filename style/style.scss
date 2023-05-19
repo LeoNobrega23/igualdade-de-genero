@@ -147,14 +147,16 @@ html {
                     width: 170px;
                     height: 180px;
                     left: 63%;
+                    top: 58%;
                 }
                 .retangulo{
                     width: 200px;
                     height: 450px;
                 }
                 h1{
-                    top: 21%;
-                    left: 63.5%;
+                    top: 28%;
+                    left: 61.5%;
+                    font-size: 21px;
                 }
             }
         }
@@ -290,7 +292,7 @@ html {
     .swiper {
         border: 1px solid rgb(0, 0, 0);
         width: 50vw;
-        height: 50vh;
+        height: 55vh;
         background-color: #2b2a2a;
         border-radius: 25px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -298,7 +300,7 @@ html {
 
             width: 25vw;
             height: 50vh;
-            background-color: #2b2a2a;
+            background-color: #2c2b2b;
             .swiper-slide{
                 padding-top: 35px;
                 height: 50vh;
@@ -322,6 +324,44 @@ html {
         }
         .swiper-button-next {
             color: #F6F3EE;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .politicas{
+        .swiper {
+            width: 90vw;
+            .swiper-wrapper{
+                 width: 50vw;
+                .swiper-slide {
+                    h4{
+                        font-size: 25px;
+                    
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 450px){
+    .politicas{
+        padding-bottom:200px;
+        .swiper{
+            height: 35vh;
+            .swiper-wrapper{
+                .swiper-slide{
+                    h4{
+                        font-size: 18px;
+                    }
+                    P {
+                        font-size: 12px;
+                    }
+                }
+            }
         }
     }
 }
