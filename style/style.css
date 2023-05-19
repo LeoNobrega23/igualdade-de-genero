@@ -164,6 +164,7 @@ body {
     transition: 0.5s ease-in-out;
   }
   .home {
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,6 +218,7 @@ body {
 }
 @media (max-width: 450px) {
   .sobre {
+    height: 80vh;
     padding: 0;
     margin: 0;
     display: flex;
@@ -293,6 +295,9 @@ body {
   }
 }
 @media (max-width: 450px) {
+  .politicas {
+    height: 80vh;
+  }
   .politicas .swiper {
     height: 35vh;
   }
