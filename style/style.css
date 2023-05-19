@@ -168,7 +168,7 @@ body {
     justify-content: center;
   }
   .home .left img {
-    width: 120px;
+    width: 140px;
     height: 180px;
   }
   .home .right .content h1 {
@@ -176,7 +176,7 @@ body {
     top: 34%;
   }
   .home .right .content .escada {
-    top: 54%;
+    top: 57%;
     left: 50%;
   }
 }
