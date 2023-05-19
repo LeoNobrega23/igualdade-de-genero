@@ -176,7 +176,7 @@ body {
     top: 34%;
   }
   .home .right .content .escada {
-    top: 58%;
+    top: 60%;
     left: 51%;
   }
 }
@@ -220,7 +220,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
+    border: 1px solid green;
     padding-left: 5px;
     padding-right: 5px;
   }
