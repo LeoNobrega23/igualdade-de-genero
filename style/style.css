@@ -87,8 +87,7 @@ body {
 }
 .home .right .content h1 {
   position: absolute;
-  top: 22%;
-  color: black;
+  top: 28%;
   left: 68%;
   color: #F6F3EE;
   font-family: "Poppins", sans-serif;
@@ -98,7 +97,7 @@ body {
 .home .right .escada {
   position: absolute;
   left: 68.5%;
-  bottom: 14%;
+  bottom: 8%;
 }
 
 @media (max-width: 820px) {
@@ -165,7 +164,6 @@ body {
     transition: 0.5s ease-in-out;
   }
   .home {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,10 +175,11 @@ body {
   .home .right .content h1 {
     font-size: 22px;
     left: 53%;
-    top: 36%;
+    top: 33%;
+    color: black;
   }
   .home .right .content .escada {
-    top: 60%;
+    top: 55%;
     left: 51%;
   }
 }
