@@ -174,7 +174,7 @@ body {
   }
   .home .right .content h1 {
     left: 53%;
-    top: 34%;
+    top: 36%;
   }
   .home .right .content .escada {
     top: 60%;
@@ -221,7 +221,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -293,9 +292,6 @@ body {
   }
 }
 @media (max-width: 450px) {
-  .politicas {
-    padding-bottom: 200px;
-  }
   .politicas .swiper {
     height: 35vh;
   }
