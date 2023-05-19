@@ -172,12 +172,12 @@ body {
     height: 180px;
   }
   .home .right .content h1 {
-    left: 52%;
+    left: 53%;
     top: 34%;
   }
   .home .right .content .escada {
-    top: 57%;
-    left: 50%;
+    top: 58%;
+    left: 51%;
   }
 }
 .sobre {
@@ -222,6 +222,7 @@ body {
     justify-content: center;
     border: 1px solid red;
     padding-left: 5px;
+    padding-right: 5px;
   }
   .sobre img {
     width: 150px;
