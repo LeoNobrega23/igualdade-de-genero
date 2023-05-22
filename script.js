@@ -23,3 +23,5 @@ var swiper = new Swiper(".swiper", {
     }
 
   }});
+
+  AOS.init();

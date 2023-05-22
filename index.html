@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Poppins:wght@400;600&family=Preahvihear&family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     
     <title>Igualdade de gênero</title>
 </head>
 <body>
     <header>
-        <nav class="nav-bar" data-aos="fade-down" id="nav">
+        <nav class="nav-bar" data-aos="fade-down" data-aos-duration="1500" id="nav">
        <div class="logo"></div>
             <ul class="list" id="menu">
                 <li><a href="#home">Início</a></li>
@@ -31,11 +32,11 @@
 <section class="home" id="home">
     <img src="./src/tracos.png" alt="" width="200"
     height="200" class="tracos">
-    <div class="left">
+    <div class="left" data-aos="fade-down-right" data-aos-duration="1500">
         <img src="./src/mulher-com-coração.png" alt="Mulher segurando um coração" width="251" height="321" class="mulher-coracao">
     </div>
  
-    <div class="right">
+    <div class="right" data-aos="fade-down-left" data-aos-duration="1500">
         <div class="content">
             <h1>Políticas públicas <br>  para  promover  <br> igualdade de <br>  gênero</h1>
             <img src="./src/Rectangle 1.png" alt="" width="245" height="500" class="retangulo">
@@ -45,13 +46,13 @@
     </div>
 </section>
 
-<section class="sobre" id="about">
-    <img src="./src/dinheiro.png" alt="" width="500" height="304">
-    <h3>O combate à desigualdade de gênero <br> é uma questão importante e complexa, <br> e há várias políticas públicas que podem ser <br> implementadas para promover a <br> igualdade  de gênero. <br> Abaixo estão algumas iniciativas <br> comumente consideradas:</h3>
+<section class="sobre" id="about" data-aos="zoom-out" data-aos-duration="1500">
+    <img src="./src/dinheiro.png" alt="" width="500" height="304" data-aos="fade-down-right" data-aos-duration="1500"> 
+    <h3 data-aos="fade-down-left" data-aos-duration="1500">O combate à desigualdade de gênero <br> é uma questão importante e complexa, <br> e há várias políticas públicas que podem ser <br> implementadas para promover a <br> igualdade  de gênero. <br> Abaixo estão algumas iniciativas <br> comumente consideradas:</h3>
 </section>
 
 
-<section class="politicas" id="politicas">
+<section class="politicas" id="politicas" data-aos="fade-up" data-aos-duration="1500">
     <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
@@ -94,9 +95,9 @@
   </div>
 </section>
 
-<section class="grupo" id="grupo">
-  <div class="left"><img src="./src/girls.png" alt="" width="300" height="300"></div>
-  <div class="center">
+<section class="grupo" id="grupo" data-aos="fade-up" data-aos-duration="1500">
+  <div class="left"><img src="./src/girls.png" alt="" width="300" height="300" data-aos="fade-down-right" data-aos-duration="1500"></div>
+  <div class="center"data-aos="fade-down" data-aos-duration="1500">
     <h5>Profª Laís Alcoforado</h5>
     <p>GRUPO: <br>
       MARIA Clara S. DE FARIAS, <br>
@@ -106,7 +107,7 @@
       LOUHANY NÓBREGA, <br>
       LARISSA BRANCO</p>
   </div>
-  <div class="right">
+  <div class="right" data-aos="fade-down-left" data-aos-duration="1500">
     <img src="/src/iguadade.png" alt="" width="300" height="300">
   </div>
 
@@ -117,6 +118,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./script.js"></script>
 </body>
 </html>

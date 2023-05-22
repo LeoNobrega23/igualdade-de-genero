@@ -71,6 +71,7 @@ html {
  
     background-color: #F6F3EE;
     height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -91,11 +92,12 @@ html {
     }
         .right {
            margin-top: 65px;
+          
            .content {
              h1 {
                 position: absolute;
-                top: 28%;
-                left: 68%;
+                top: 8%;
+                left: 14%;
                 color: #F6F3EE;
                 font-family: "Poppins", sans-serif;
                 font-size: 24.5px;
@@ -104,7 +106,7 @@ html {
            }
                 .escada{
                     position: absolute;
-                    left: 68.5%;
+                    left: 8%;
                     bottom: 8%;
             
                 }
@@ -117,12 +119,12 @@ html {
             .content {
                 h1{
                     font-size: 22.5px;
-                    top: 36%;
-                    left: 65%;
+                    top: 10%;
+                    left: 10%;
                 }
                 .escada {
-                    top: 52%;
-                    left: 65%;
+                    top: 50%;
+                    left: 10%;
                 }
             }
         }
@@ -146,16 +148,16 @@ html {
                 .escada {
                     width: 170px;
                     height: 180px;
-                    left: 63%;
-                    top: 58%;
+                    left: 10%;
+                    top: 53%;
                 }
                 .retangulo{
                     width: 200px;
                     height: 450px;
                 }
                 h1{
-                    top: 28%;
-                    left: 61.5%;
+                    top: 11%;
+                    left: 10%;
                     font-size: 21px;
                 }
             }
@@ -215,12 +217,12 @@ html {
             .content {
                 h1{
                     font-size: 22px;
-                    left: 53%;
-                    top: 35.5%;
+                    left: 10%;
+                    top: 10%;
                 }
                 .escada {
-                    top: 60%;
-                    left: 51%;
+                    top: 53%;
+                    left: 10%;
                 }
             }
         }
