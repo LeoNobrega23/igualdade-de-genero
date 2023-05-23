@@ -3,4 +3,4 @@
 <p> Esse projeto foi feito para uma aula de saúde pública de odontologia da faculdade UNIESP com intuíto de apresentar a população as políticas públicas para a igualdade de gênero </p>
 
 
-<p> Link do projeto <a  target="_blank" href="http://igualdade-de-genero-uniesp.netlify.app">Clique aqui!</a>
+<p> Link do projeto: <a  target="_blank" href="http://igualdade-de-genero-uniesp.netlify.app">Clique aqui!</a>
