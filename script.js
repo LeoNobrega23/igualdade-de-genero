@@ -9,11 +9,11 @@ var swiper = new Swiper(".swiper", {
     breakpoints: {
       450: {
         slidesPerView: 1,
-    spaceBetween: 20,
+
       },
       768: {
         slidesPerView: 2,
-        spaceBetween: 19,
+
     },
     991: {
       slidesPerView: 1,

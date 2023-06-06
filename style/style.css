@@ -236,12 +236,14 @@ body {
   }
 }
 .politicas {
+  display: none;
   height: 100vh;
   width: 100%;
   background-color: #F6F3EE;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .politicas .swiper {
   border: 1px solid rgb(0, 0, 0);
@@ -250,6 +252,8 @@ body {
   background-color: #2b2a2a;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 0;
+  overflow: hidden;
 }
 .politicas .swiper .swiper-wrapper {
   padding-top: 15px;
@@ -270,9 +274,11 @@ body {
 .politicas .swiper .swiper-wrapper .swiper-slide p {
   color: #F6F3EE;
   font-family: "Poppins", monospace;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   padding-top: 15px;
+  position: absolute;
+  overflow-y: hidden;
 }
 .politicas .swiper .swiper-button-prev {
   color: #F6F3EE;
@@ -298,15 +304,22 @@ body {
 @media (max-width: 450px) {
   .politicas {
     height: 80vh;
+    width: 100vw;
   }
   .politicas .swiper {
     height: 40vh;
+  }
+  .politicas .swiper .swiper-wrapper {
+    padding-top: 5px;
+  }
+  .politicas .swiper .swiper-wrapper .swiper-slide {
+    padding-top: 10px;
   }
   .politicas .swiper .swiper-wrapper .swiper-slide h4 {
     font-size: 16px;
   }
   .politicas .swiper .swiper-wrapper .swiper-slide P {
-    font-size: 11px;
+    font-size: 9px;
   }
 }
 .grupo {
